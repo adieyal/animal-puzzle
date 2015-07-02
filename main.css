@@ -1,0 +1,24 @@
+.tile {
+    height: 149px;
+    width: 149px;
+}
+
+.lion.tile {
+    background-image: url(img/lion.png);
+}
+
+.elephant.tile {
+    background-image: url(img/elephant.png);
+}
+
+.springbok.tile {
+    background-image: url(img/springbok.png);
+}
+
+.rhino.tile {
+    background-image: url(img/rhino.png);
+}
+
+.zebra.tile {
+    background-image: url(img/zebra.png);
+}

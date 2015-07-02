@@ -1,0 +1,18 @@
+<!DOCTYPE html> 
+<html xmlns:xlink="http://www.w3.org/1999/xlink">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>
+    <div id="content"></div>
+    <script src="d3.js"></script>
+    <script src="main.js"></script>
+    <script>
+        puzzle = new Puzzle(d3.select('#content'));
+        puzzle.cover_tile(1, 1, 1);
+        puzzle.cover_tile(1, 1, 2);
+        puzzle.cover_tile(1, 1, 3);
+    </script>
+</body>
+</html>
